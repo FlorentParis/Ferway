@@ -24,7 +24,7 @@ function get(path, success, error) {
 var getPost = function () {
     get("https://api-ratp.pierre-grimaud.fr/v4/stations/metros/8?way=A", function (response){
         datas = JSON.parse(response);
-        list(datas['result']['stations']);
+        setTimeout(() => {  list(datas['result']['stations']);}, 50);
     }, function(error) {
         console.log(error);
     })
