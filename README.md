@@ -24,7 +24,7 @@ J'aurais été plus à l'aise en Javascript Vanilla, et je pense pouvoir faire e
 ## Temps utilisé
 
 Total : 
-Inspection de l'application model + recherche/comprehension de l'api : 30min
+Inspection de l'application model + recherche/comprehension de l'api : 30min </br>
 Requête AJAX : 30min
 React : 1h
 Peaufinage et mise en place du CSS : 20min
